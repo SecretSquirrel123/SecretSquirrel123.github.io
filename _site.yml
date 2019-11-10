@@ -4,5 +4,5 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "CLT"
+    - text: "CLT Latest"
       href: CLT_2.html
