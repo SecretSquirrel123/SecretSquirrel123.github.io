@@ -278,7 +278,7 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="CTL_2.html">CLT</a>
+  <a href="CLT_2.html">CLT Latest</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -335,21 +335,21 @@ xbar_holder2 = numeric(simulations) # This will hold all the sample means for th
 <pre class="r"><code>par(mfrow = c(2,1))
 hist(xbar_holder1, col = &quot;blue&quot;, main = paste(&quot;Distribution of the sample mean: n = &quot;, n1), xlab = &quot;Dist 1 Sample Means&quot;, xlim = c(-4,4))
 hist(xbar_holder2, col = &quot;red&quot;, main = paste(&quot;Distribution of the sample mean: n = &quot;, n2), xlab = &quot;Dist 2 Sample Means&quot;, xlim = c(-4,4))</code></pre>
-<p><img src="CLT_2_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="CLT_2_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 </div>
 <div id="summary-statistics" class="section level2">
 <h2>Summary Statistics</h2>
 <pre class="r"><code>summary(xbar_holder1) #5 number summary and the mean</code></pre>
 <pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
-## -0.889497 -0.208567  0.004436  0.006832  0.219795  1.061200</code></pre>
+## -1.002026 -0.210051 -0.015475 -0.009009  0.207367  0.956435</code></pre>
 <pre class="r"><code>summary(xbar_holder2) #5 number summary and the mean</code></pre>
 <pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
-## -0.306119 -0.062996  0.004181  0.005038  0.071750  0.345070</code></pre>
+## -0.414418 -0.071638 -0.007401 -0.003550  0.064416  0.284481</code></pre>
 <pre class="r"><code>sd(xbar_holder1) # standard deviation of dstribuion 1</code></pre>
-<pre><code>## [1] 0.3151381</code></pre>
+<pre><code>## [1] 0.3152174</code></pre>
 <pre class="r"><code>sd(xbar_holder2) #standard deviation of distribuion 2</code></pre>
-<pre><code>## [1] 0.1025893</code></pre>
+<pre><code>## [1] 0.09998578</code></pre>
 </div>
 </div>
 
