@@ -1,0 +1,12 @@
+---
+title: "Simple Website Markdown"
+author: "Jon Paugh"
+date: "11/9/2019"
+output: html_document
+---
+
+# The Simple Yet Awesome Website 
+## Note the six lines of text above are the YAML tags
+### We will Knit this RMD to an HTML file next
+Then push index.html to the github.io repo
+
