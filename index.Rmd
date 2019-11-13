@@ -5,8 +5,10 @@ date: "11/9/2019"
 output: html_document
 ---
 
-# The Simple Yet Awesome Website 
-## Note the six lines of text above are the YAML tags
-### We will Knit this RMD to an HTML file next
-Then push index.html to the github.io repo
+### Resident of Dallas, TX
+### Interested in ; Travel, Languages, Machine Learning, History.
+### Works at Global Payment Systems.
+### BS Computer Science from University of Virginia, now enrolled in SMU Masters of Data Science program
+
+#### The other tabs present projects and homework assignments that I have created.
 
