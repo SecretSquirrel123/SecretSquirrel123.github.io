@@ -1,8 +1,0 @@
-name: "my-website"
-navbar:
-  title: "My Website"
-  left:
-    - text: "About Me"
-      href: index.html
-    - text: "Doing Data science Coure - SMU - Case Study 1 - Craft Beer Study"
-      href: _BeerAnalysis.html
