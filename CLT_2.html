@@ -280,6 +280,9 @@ $(document).ready(function () {
 <li>
   <a href="CLT_2.html">CLT</a>
 </li>
+<li>
+  <a href="_BeerAnalysis.html">Craft Beer Analysis</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -299,8 +302,8 @@ $(document).ready(function () {
 </div>
 
 
-<div id="simulator-to-demonstrate-clt" class="section level1">
-<h1>Simulator to Demonstrate CLT</h1>
+<div id="simulator-to-demonstrate-cltli" class="section level1">
+<h1>Simulator to Demonstrate CLTli</h1>
 <div id="control-parameters" class="section level2">
 <h2>Control Parameters</h2>
 <pre class="r"><code>df = read.table(&quot;D:/projects/DoingDataScience/Unit5/yob2016.txt&quot;,stringsAsFactors = FALSE,header = FALSE,sep = &quot;;&quot;)
@@ -335,21 +338,21 @@ xbar_holder2 = numeric(simulations) # This will hold all the sample means for th
 <pre class="r"><code>par(mfrow = c(2,1))
 hist(xbar_holder1, col = &quot;blue&quot;, main = paste(&quot;Distribution of the sample mean: n = &quot;, n1), xlab = &quot;Dist 1 Sample Means&quot;, xlim = c(-4,4))
 hist(xbar_holder2, col = &quot;red&quot;, main = paste(&quot;Distribution of the sample mean: n = &quot;, n2), xlab = &quot;Dist 2 Sample Means&quot;, xlim = c(-4,4))</code></pre>
-<p><img src="CLT_2_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="CLT_2_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 </div>
 </div>
 <div id="summary-statistics" class="section level2">
 <h2>Summary Statistics</h2>
 <pre class="r"><code>summary(xbar_holder1) #5 number summary and the mean</code></pre>
-<pre><code>##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-## -1.08750 -0.19186  0.01935  0.02264  0.23788  0.95183</code></pre>
+<pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+## -1.037317 -0.200829  0.012164  0.002789  0.198480  1.044188</code></pre>
 <pre class="r"><code>summary(xbar_holder2) #5 number summary and the mean</code></pre>
-<pre><code>##       Min.    1st Qu.     Median       Mean    3rd Qu.       Max. 
-## -0.3510121 -0.0666185  0.0005068  0.0012125  0.0693784  0.3332417</code></pre>
+<pre><code>##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+## -0.297012 -0.070786 -0.005408 -0.001653  0.065817  0.309677</code></pre>
 <pre class="r"><code>sd(xbar_holder1) # standard deviation of dstribuion 1</code></pre>
-<pre><code>## [1] 0.3201835</code></pre>
+<pre><code>## [1] 0.3109078</code></pre>
 <pre class="r"><code>sd(xbar_holder2) #standard deviation of distribuion 2</code></pre>
-<pre><code>## [1] 0.101999</code></pre>
+<pre><code>## [1] 0.1002055</code></pre>
 </div>
 </div>
 
