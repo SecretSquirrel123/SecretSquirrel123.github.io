@@ -9,39 +9,39 @@ Other than the missing fields that are noted, all columns were present for all d
 
 The following are the columns of data provided. I did not receive a description of the columns. 
 
- $ ID                          : int. unique.
- $ Age                         : int  
- $ Attrition                   : Factor w/ 2 levels "No","Yes"
- $ BusinessTravel              : Factor w/ 3 levels "Non-Travel","Travel_Frequently", "Travel Frequently"
- $ DailyRate                   : int  
- $ Department                  : Factor w/ 3 levels "Human Resources","Research and Development", "Sales"
- $ DistanceFromHome            : int  
- $ Education                   : Factor w/ 5 levels "1","2","3","4","5"
- $ EducationField              : Factor w/ 6 levels "Human Resources", "Life Sciences", "Marketing", "Medical", "Other", "Technical Degree"
- $ EmployeeCount               : int 
- $ EmployeeNumber              : int  
- $ EnvironmentSatisfaction     : Factor w/ 4 levels "1","2","3","4"
- $ Gender                      : Factor w/ 2 levels "Female","Male"
- $ HourlyRate                  : int  
- $ JobInvolvement              : Factor w/ 4 levels "1","2","3","4"
- $ JobLevel                    : Factor w/ 4 levels "1","2","3","4"
- $ JobRole                     : Factor w/ 9 levels "Healthcare Representative","Human Resources","Laboratory Technician", "Manager", "Manufactoring Directory", "Research Director", "Research Scientist", "Sales Executive", "Sales Representative"
- $ JobSatisfaction             : Factor w/ 4 levels "1","2","3","4"
- $ MaritalStatus               : Factor w/ 3 levels "Divorced","Married","Sinle"
- $ MonthlyIncome               : int  
- $ MonthlyRate                 : int  
- $ NumCompaniesWorked          : int  
- $ Over18                      : Factor w/ 1 level "Y"
- $ OverTime                    : Factor w/ 2 levels "No","Yes"
- $ PercentSalaryHike           : int  
- $ PerformanceRating           : Factor w/ 2 levels "3","4"
- $ RelationshipSatisfaction    : Factor w/ 4 levels "1","2","3","4"
- $ StandardHours               : int  
- $ StockOptionLevel            : Factor w/ 4 levels "0","1","2","3"
- $ TotalWorkingYears           : int  
- $ TrainingTimesLastYear       : int  
- $ WorkLifeBalance             : Factor w/ 4 levels "1","2","3","4"
- $ YearsAtCompany              : int  
- $ YearsInCurrentRole          : int  
- $ YearsSinceLastPromotion     : int  
- $ YearsWithCurrManager        : int  
+ 1  ID                          : int. unique.
+ 2  Age                         : int  
+ 3  Attrition                   : Factor w/ 2 levels "No","Yes"
+ 4  BusinessTravel              : Factor w/ 3 levels "Non-Travel","Travel_Frequently", "Travel Frequently"
+ 5  DailyRate                   : int  
+ 6  Department                  : Factor w/ 3 levels "Human Resources","Research and Development", "Sales"
+ 7  DistanceFromHome            : int  
+ 8  Education                   : Factor w/ 5 levels "1","2","3","4","5"
+ 9  EducationField              : Factor w/ 6 levels "Human Resources", "Life Sciences", "Marketing", "Medical", "Other", "Technical Degree"
+ 10 EmployeeCount               : int 
+ 11 EmployeeNumber              : int  
+ 12 EnvironmentSatisfaction     : Factor w/ 4 levels "1","2","3","4"
+ 13 Gender                      : Factor w/ 2 levels "Female","Male"
+ 14 HourlyRate                  : int  
+ 15 JobInvolvement              : Factor w/ 4 levels "1","2","3","4"
+ 16 JobLevel                    : Factor w/ 4 levels "1","2","3","4"
+ 17 JobRole                     : Factor w/ 9 levels "Healthcare Representative","Human Resources","Laboratory Technician", "Manager", "Manufactoring Directory", "Research Director", "Research Scientist", "Sales Executive", "Sales Representative"
+ 18 JobSatisfaction             : Factor w/ 4 levels "1","2","3","4"
+ 19 MaritalStatus               : Factor w/ 3 levels "Divorced","Married","Sinle"
+ 20 MonthlyIncome               : int  
+ 21 MonthlyRate                 : int  
+ 22 NumCompaniesWorked          : int  
+ 23 Over18                      : Factor w/ 1 level "Y"
+ 24 OverTime                    : Factor w/ 2 levels "No","Yes"
+ 25 PercentSalaryHike           : int  
+ 26 PerformanceRating           : Factor w/ 2 levels "3","4"
+ 27 RelationshipSatisfaction    : Factor w/ 4 levels "1","2","3","4"
+ 28 StandardHours               : int  
+ 29 StockOptionLevel            : Factor w/ 4 levels "0","1","2","3"
+ 30 TotalWorkingYears           : int  
+ 31 TrainingTimesLastYear       : int  
+ 32 WorkLifeBalance             : Factor w/ 4 levels "1","2","3","4"
+ 33 YearsAtCompany              : int  
+ 33 YearsInCurrentRole          : int  
+ 34 YearsSinceLastPromotion     : int  
+ 35 YearsWithCurrManager        : int  
