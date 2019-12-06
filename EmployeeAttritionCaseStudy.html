@@ -318,83 +318,26 @@ $(document).ready(function () {
 <div id="must-use-either-knn-or-naive-bayes-but-can-use-other-techniques-too" class="section level4">
 <h4>Must use either KNN or Naive Bayes, but can use other techniques too</h4>
 </div>
+</div>
+<div id="youtube-video-of-presenation-is-here" class="section level1">
+<h1>Youtube video of presenation is here:</h1>
+<div id="httpssecretsquirrel123.github.io" class="section level2">
+<h2><a href="https://secretsquirrel123.github.io/" class="uri">https://secretsquirrel123.github.io/</a></h2>
 <div id="install-packages" class="section level4">
 <h4>Install packages</h4>
-<pre class="r"><code>require(&quot;e1071&quot;)</code></pre>
-<pre><code>## Loading required package: e1071</code></pre>
-<pre class="r"><code>require(&quot;caret&quot;)</code></pre>
-<pre><code>## Loading required package: caret</code></pre>
-<pre><code>## Loading required package: lattice</code></pre>
-<pre><code>## Loading required package: ggplot2</code></pre>
-<pre class="r"><code>require(&quot;corrplot&quot;)</code></pre>
-<pre><code>## Loading required package: corrplot</code></pre>
-<pre><code>## corrplot 0.84 loaded</code></pre>
-<pre class="r"><code>require(&quot;MASS&quot;)</code></pre>
-<pre><code>## Loading required package: MASS</code></pre>
-<pre class="r"><code>require(&quot;randomForest&quot;)</code></pre>
-<pre><code>## Loading required package: randomForest</code></pre>
-<pre><code>## randomForest 4.6-14</code></pre>
-<pre><code>## Type rfNews() to see new features/changes/bug fixes.</code></pre>
-<pre><code>## 
-## Attaching package: &#39;randomForest&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
-## 
-##     margin</code></pre>
-<pre class="r"><code>require(&quot;fields&quot;)</code></pre>
-<pre><code>## Loading required package: fields</code></pre>
-<pre><code>## Loading required package: spam</code></pre>
-<pre><code>## Loading required package: dotCall64</code></pre>
-<pre><code>## Loading required package: grid</code></pre>
-<pre><code>## Spam version 2.4-0 (2019-11-01) is loaded.
-## Type &#39;help( Spam)&#39; or &#39;demo( spam)&#39; for a short introduction 
-## and overview of this package.
-## Help for individual functions is also obtained by adding the
-## suffix &#39;.spam&#39; to the function name, e.g. &#39;help( chol.spam)&#39;.</code></pre>
-<pre><code>## 
-## Attaching package: &#39;spam&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     backsolve, forwardsolve</code></pre>
-<pre><code>## Loading required package: maps</code></pre>
-<pre><code>## See https://github.com/NCAR/Fields for
-##  an extensive vignette, other supplements and source code</code></pre>
-<pre class="r"><code>require(&quot;ggthemes&quot;)</code></pre>
-<pre><code>## Loading required package: ggthemes</code></pre>
-<pre class="r"><code>require(&quot;ROCR&quot;)</code></pre>
-<pre><code>## Loading required package: ROCR</code></pre>
-<pre><code>## Loading required package: gplots</code></pre>
-<pre><code>## 
-## Attaching package: &#39;gplots&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:stats&#39;:
-## 
-##     lowess</code></pre>
-<pre class="r"><code>require(&quot;dplyr&quot;)</code></pre>
-<pre><code>## Loading required package: dplyr</code></pre>
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:randomForest&#39;:
-## 
-##     combine</code></pre>
-<pre><code>## The following object is masked from &#39;package:MASS&#39;:
-## 
-##     select</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>require(&quot;ggplot2&quot;)
-require(&quot;scales&quot;)</code></pre>
-<pre><code>## Loading required package: scales</code></pre>
-<pre class="r"><code>require(&quot;grid&quot;)
+<pre class="r"><code>require(&quot;e1071&quot;)
+require(&quot;caret&quot;)
+require(&quot;corrplot&quot;)
+require(&quot;MASS&quot;)
+require(&quot;randomForest&quot;)
+require(&quot;fields&quot;)
+require(&quot;ggthemes&quot;)
+require(&quot;ROCR&quot;)
+require(&quot;dplyr&quot;)
+require(&quot;ggplot2&quot;)
+require(&quot;scales&quot;)
+require(&quot;grid&quot;)
 require(&quot;reshape&quot;)</code></pre>
-<pre><code>## Loading required package: reshape</code></pre>
-<pre><code>## 
-## Attaching package: &#39;reshape&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
-## 
-##     rename</code></pre>
 </div>
 </div>
 <div id="first-lets-get-our-data-and-see-how-many-rows-we-have." class="section level2">
@@ -419,6 +362,7 @@ print(paste(&quot;Number of rows : Full= &quot;,nrowsFullTraining,&quot; Validat
 <pre><code>## [1] &quot;Number of rows : Full=  870  ValidationNoAttrition =  300  ValidationNoSalary =  300&quot;</code></pre>
 <pre class="r"><code>print(paste(&quot;Total rows &quot; ,nrowsFullTraining + nrowsValidationNoAttrition + nrowsValidaitonNoSalary ))</code></pre>
 <pre><code>## [1] &quot;Total rows  1470&quot;</code></pre>
+</div>
 </div>
 </div>
 <div id="lets-try-merging-to-a-single-dataframe-." class="section level1">
@@ -1752,28 +1696,11 @@ ggplot(data=train, aes(train$Attrition)) +
 </div>
 <div id="lets-make-a-nicer-chart-of-just-attrition" class="section level1">
 <h1>lets make a nicer chart of just attrition</h1>
-<pre class="r"><code>library(plotly)</code></pre>
-<pre><code>## 
-## Attaching package: &#39;plotly&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:plyr&#39;:
-## 
-##     arrange, mutate, rename, summarise</code></pre>
-<pre><code>## The following object is masked from &#39;package:reshape&#39;:
-## 
-##     rename</code></pre>
-<pre><code>## The following object is masked from &#39;package:MASS&#39;:
-## 
-##     select</code></pre>
-<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
-## 
-##     last_plot</code></pre>
-<pre><code>## The following object is masked from &#39;package:stats&#39;:
-## 
-##     filter</code></pre>
-<pre><code>## The following object is masked from &#39;package:graphics&#39;:
-## 
-##     layout</code></pre>
-<pre class="r"><code>attritGrouped  &lt;-  trainAndMonthlyIncome %&gt;% group_by(Attrition) %&gt;% tally() %&gt;%
+<pre class="r"><code>library(plotly)
+
+
+
+attritGrouped  &lt;-  trainAndMonthlyIncome %&gt;% group_by(Attrition) %&gt;% tally() %&gt;%
   mutate(percent=round(prop.table(n),2) * 100) %&gt;% 
   ggplot(aes(x=Attrition, y=percent)) + geom_bar(stat=&quot;identity&quot;) + 
 geom_text(aes(x=Attrition, y=0.1, label= sprintf(&quot;%.2f%%&quot;, percent)),
@@ -1856,12 +1783,6 @@ ggplot2::ggplot(df, aes(&#39;&#39;, counts)) +
 }
 
 ShowPieChart(&quot;BusinessTravel&quot;, &quot;Attrition&quot;, &quot;Attrition by Business Travel&quot;)</code></pre>
-<pre><code>## Warning: arrange_() is deprecated. 
-## Please use arrange() instead
-## 
-## The &#39;programming&#39; vignette or the tidyeval book can help you
-## to program with arrange() : https://tidyeval.tidyverse.org
-## This warning is displayed once per session.</code></pre>
 <p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
 <pre class="r"><code>ShowPieChart(&quot;Department&quot;, &quot;Attrition&quot;, &quot;Attrition by Department&quot;)</code></pre>
 <p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-12-2.png" width="672" /></p>
@@ -3621,23 +3542,6 @@ plot(ROCRPerf,colorize = TRUE, print.cutoffs.at = seq(0.1, by = 0.1))</code></pr
 <p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-34-1.png" width="672" /></p>
 </div>
 </div>
-<div id="write-out-to-file-for-the-alternative-model" class="section level1">
-<h1>write out to file for the alternative model</h1>
-<pre class="r"><code>predictAttritionResultsValidationProbs = predict(logRegModel, predictAttr, inverval=&quot;predict&quot;, type = &quot;response&quot;)
-
-predictAttritionResultsValidation &lt;- ifelse(predictAttritionResultsValidationProbs &gt; 0.12, &quot;Yes&quot;, &quot;No&quot;)
-
-# create a separate dataset with attrition filled in to avoid future confusion
-predictAttrFilledIn = predictAttr
-# use the predicted values
-
-
-predictAttrFilledIn$Attrition = predictAttritionResultsValidation
-predictAttrWithID = predictAttrFilledIn[, c(&quot;ID&quot;, &quot;Attrition&quot;)]
-write.csv(predictAttrWithID, file=&quot;Case2PredictionsPaugh Attrition.csv&quot;, row.names=FALSE)
-predictAttrWithEmployeeNumber = predictAttrFilledIn[, c(&quot;EmployeeNumber&quot;, &quot;Attrition&quot;)]
-write.csv(predictAttrWithEmployeeNumber, file=&quot;Case2PredictionsByENAttrition.csv&quot;, row.names=FALSE)</code></pre>
-</div>
 <div id="repeat-manual-model-but-not-with-many-iteration-of-traintest-testing-to-check-confusion-matrix-results" class="section level1">
 <h1>repeat manual model, but not with many iteration of train/test testing to check confusion matrix results</h1>
 <pre class="r"><code>set.seed(1)
@@ -3685,7 +3589,7 @@ for(j in 1:iterations)
 MeanAcc = colMeans(masterAcc)
 
 plot(seq(1,thresholdIterations,1),MeanAcc, type = &quot;l&quot;, xlab = &quot;Threshold&quot;, ylab=&quot;Accuracy&quot;)</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-1.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-1.png" width="672" /></p>
 <pre class="r"><code>which.max(MeanAcc)</code></pre>
 <pre><code>## [1] 56</code></pre>
 <pre class="r"><code>max(MeanAcc)</code></pre>
@@ -3693,7 +3597,7 @@ plot(seq(1,thresholdIterations,1),MeanAcc, type = &quot;l&quot;, xlab = &quot;Th
 <pre class="r"><code>MeanSens = colMeans(masterSens)
 
 plot(seq(1,thresholdIterations,1),MeanSens, type = &quot;l&quot;, xlab = &quot;Threshold&quot;, ylab=&quot;Sensitivity&quot;)</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-2.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-2.png" width="672" /></p>
 <pre class="r"><code>which.max(MeanSens)</code></pre>
 <pre><code>## [1] 3</code></pre>
 <pre class="r"><code>thresholdValues[which.max(MeanSens)]</code></pre>
@@ -3703,7 +3607,7 @@ plot(seq(1,thresholdIterations,1),MeanSens, type = &quot;l&quot;, xlab = &quot;T
 <pre class="r"><code>MeanSpec = colMeans(masterSpec)
 
 plot(seq(1,thresholdIterations,1),MeanSpec, type = &quot;l&quot;, xlab = &quot;Threshold&quot;, ylab=&quot;Specificity&quot;)</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-3.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-3.png" width="672" /></p>
 <pre class="r"><code>which.max(MeanSpec)</code></pre>
 <pre><code>## [1] 1</code></pre>
 <pre class="r"><code>thresholdValues[which.max(MeanSpec)]</code></pre>
@@ -3712,7 +3616,7 @@ plot(seq(1,thresholdIterations,1),MeanSpec, type = &quot;l&quot;, xlab = &quot;T
 <pre><code>## [1] 1</code></pre>
 <pre class="r"><code>MeanCombined = colMeans(masterCombined)
 plot(seq(1,thresholdIterations,1),MeanCombined, type = &quot;l&quot;, xlab = &quot;Threshold&quot;, ylab=&quot;Sensitivity + Specificity&quot;)</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-4.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-4.png" width="672" /></p>
 <pre class="r"><code>which.max(MeanCombined)</code></pre>
 <pre><code>## [1] 20</code></pre>
 <pre class="r"><code>thresholdValues[which.max(MeanCombined)]</code></pre>
@@ -3835,11 +3739,57 @@ p = ggplot() +
   xlab(&#39;Dates&#39;) +
   ylab(&#39;percent.change&#39;) + theme_economist()
 p</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-5.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-5.png" width="672" /></p>
 <pre class="r"><code>dfMeltThresholdData &lt;- melt(dfTestingResults, id.vars=&quot;Threshold&quot;, value.name=&quot;value&quot;)
 ggplot(dfMeltThresholdData, aes(x=Threshold, y=value, color=variable)) + 
   geom_point()</code></pre>
-<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-36-6.png" width="672" /></p>
+<p><img src="EmployeeAttritionCaseStudy_files/figure-html/unnamed-chunk-35-6.png" width="672" /></p>
+<pre class="r"><code>str(train)</code></pre>
+<pre><code>## &#39;data.frame&#39;:    870 obs. of  44 variables:
+##  $ ID                          : int  1 2 3 4 5 6 7 8 9 10 ...
+##  $ Age                         : int  32 40 35 32 24 27 41 37 34 34 ...
+##  $ Attrition                   : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ BusinessTravel              : Factor w/ 3 levels &quot;Non-Travel&quot;,&quot;Travel_Frequently&quot;,..: 3 3 2 3 2 2 3 3 3 2 ...
+##  $ DailyRate                   : int  117 1308 200 801 567 294 1283 309 1333 653 ...
+##  $ Department                  : Factor w/ 3 levels &quot;Human Resources&quot;,..: 3 2 2 3 2 2 2 3 3 2 ...
+##  $ DistanceFromHome            : int  13 14 18 1 2 10 5 10 10 10 ...
+##  $ Education                   : Factor w/ 5 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,..: 4 3 2 4 1 2 5 4 4 4 ...
+##  $ EducationField              : Factor w/ 6 levels &quot;Human Resources&quot;,..: 2 4 2 3 6 2 4 2 2 6 ...
+##  $ EmployeeCount               : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ EmployeeNumber              : int  859 1128 1412 2016 1646 733 1448 1105 1055 1597 ...
+##  $ EnvironmentSatisfaction     : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 2 3 3 3 1 4 2 4 3 4 ...
+##  $ Gender                      : Factor w/ 2 levels &quot;Female&quot;,&quot;Male&quot;: 2 2 2 1 1 2 2 1 1 2 ...
+##  $ HourlyRate                  : int  73 44 60 48 32 32 90 88 87 92 ...
+##  $ JobInvolvement              : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 3 2 3 3 3 3 4 2 3 2 ...
+##  $ JobLevel                    : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 3 2 3 3 3 3 4 2 3 2 ...
+##  $ JobRole                     : Factor w/ 9 levels &quot;Healthcare Representative&quot;,..: 8 6 5 8 7 5 7 8 9 1 ...
+##  $ JobSatisfaction             : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 4 3 4 4 4 1 3 4 3 3 ...
+##  $ MaritalStatus               : Factor w/ 3 levels &quot;Divorced&quot;,&quot;Married&quot;,..: 1 3 3 2 3 1 2 1 2 2 ...
+##  $ MonthlyIncome               : int  4403 19626 9362 10422 3760 8793 2127 6694 2220 5063 ...
+##  $ MonthlyRate                 : int  9250 17544 19944 24032 17218 4809 5561 24223 18410 15332 ...
+##  $ NumCompaniesWorked          : int  2 1 2 1 1 1 2 2 1 1 ...
+##  $ Over18                      : Factor w/ 1 level &quot;Y&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ OverTime                    : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 2 1 2 2 2 1 ...
+##  $ PercentSalaryHike           : int  11 14 11 19 13 21 12 14 19 14 ...
+##  $ PerformanceRating           : Factor w/ 2 levels &quot;3&quot;,&quot;4&quot;: 1 1 1 1 1 2 1 1 1 1 ...
+##  $ RelationshipSatisfaction    : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 3 1 3 3 3 3 1 3 4 2 ...
+##  $ StandardHours               : int  80 80 80 80 80 80 80 80 80 80 ...
+##  $ StockOptionLevel            : Factor w/ 4 levels &quot;0&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;: 2 1 1 3 1 3 1 4 2 2 ...
+##  $ TotalWorkingYears           : int  8 21 10 14 6 9 7 8 1 8 ...
+##  $ TrainingTimesLastYear       : int  3 2 2 3 2 4 5 5 2 3 ...
+##  $ WorkLifeBalance             : Factor w/ 4 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;: 2 4 3 3 3 2 2 3 3 2 ...
+##  $ YearsAtCompany              : int  5 20 2 14 6 9 4 1 1 8 ...
+##  $ YearsInCurrentRole          : int  2 7 2 10 3 7 2 0 1 2 ...
+##  $ YearsSinceLastPromotion     : int  0 4 2 5 1 1 0 0 0 7 ...
+##  $ YearsWithCurrManager        : int  3 9 2 7 3 7 3 0 0 7 ...
+##  $ BusinessTravelFrequently    : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 2 1 2 2 1 1 1 2 ...
+##  $ LowEducation                : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 2 2 2 2 2 2 1 2 2 2 ...
+##  $ LowEnvironmentalSatisfaction: Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 2 2 2 2 2 1 2 1 2 1 ...
+##  $ LowJobLevel                 : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 2 1 2 1 2 1 ...
+##  $ JobRoleSales                : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 1 1 1 1 2 1 ...
+##  $ HighCompaniesWorked         : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ LowWorkLifeBalance          : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ JobRoleMed                  : Factor w/ 2 levels &quot;No&quot;,&quot;Yes&quot;: 2 1 1 2 2 1 2 2 1 1 ...</code></pre>
 </div>
 
 
