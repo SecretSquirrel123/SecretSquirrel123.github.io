@@ -6,6 +6,9 @@ This project is a case study of the employee data provided, contained in 3 files
 3) CaseStudy2CompSet No Attrition.csv - 300 rows of full data, except the Attrition is missing, and to be predicted.
 Other than the missing fields that are noted, all columns were present for all data. All three files contain the same columns.
 
+My video presentation on this project is here:
+https://www.youtube.com/watch?v=noikUN0TdDM
+
 I believe this data orignally came from here:
 https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/
 
